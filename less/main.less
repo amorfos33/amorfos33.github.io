@@ -1,0 +1,293 @@
+body {
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	
+		.menu {
+			width: 273px;
+			background-color: #353541;
+			min-height: 100%;
+			.myPhoto {
+				width: 100%;
+				height: 253px;
+				background-image: url(../img/519.jpg);
+				background-size: 100% 100%;
+			}
+			nav {
+				ul {
+					padding-left: 0px;
+					li {
+						margin: 0 auto;
+						list-style: none;
+						width: 100%;
+						height: 60px;
+						border-bottom: 1px solid #131321;
+						text-align: center;
+						a {
+							text-decoration: none;
+							color: #ffffff;
+							font-family: Raleway;
+							font-size: 22px;
+							font-weight: 500;
+							line-height: 62px;
+						}
+					}
+				}
+			}
+		}
+		.mainConteiner {
+			width: 77%;
+			min-width: 500px;
+			max-width: 1075px;
+			box-sizing: border-box;
+			.main {
+				width: 100%;
+				height: 391px;
+				background-image: url(../img/header.jpg);
+				background-size: cover;
+				box-sizing: border-box;
+				padding-top: 70px;
+				text-align: center;
+				h1 {
+					color: #ffffff;
+					font-family: "Raleway - Semi Bold";
+					font-size: 48px;
+					font-weight: 400;
+					line-height: 36.48px;
+					text-align: center;
+					margin-bottom: 128px;
+				}
+				
+			}
+			.about, .education, .expirience, .portfolio, .contacts {
+				width: 100%;
+				padding-left: 115px;
+				padding-top: 79px;
+				box-sizing: border-box;
+				padding-right: 50px;
+				h2 {
+					color: #3e3e3e;
+					font-family: Raleway;
+					font-size: 32px;
+					font-weight: 500;
+					line-height: 50px;
+					border-bottom: 1px solid #fb6470;
+					padding-bottom: 18px;
+				}
+				h3 {
+					margin-top: 48px;
+					color: #3e3e3e;
+					font-family: Raleway;
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 50px;
+				}
+			}
+			.portfolio {
+				width: 100%;
+				.frameContainer {
+					margin-top: 50px;
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-around;
+					.portfolioFrame {
+						box-sizing: border-box;
+						width: 300px;
+						height: 500px;
+						border: 1px solid #525052;
+						border-radius: 20px;
+						-moz-box-shadow: 0px 0px 63px 14px rgba(0,0,0,0.69);
+						box-shadow: 0px 0px 63px 14px rgba(0,0,0,0.69);
+						h3 {
+							text-align: center;
+							margin-top: 10px;
+						}
+						a {text-decoration: none;}
+						img {
+							width: 100%;
+							height: 100%;
+							border-radius: 20px;
+						}
+					}
+				}
+			}
+			.contacts {
+				width: 100%;
+				.contactContainer {
+					display: flex;
+					flex-wrap: wrap;
+					.contactsLeftPart {
+						width: 50%;
+						max-width: 600px;
+						border-right: 2px solid #525052;
+						padding-right: 78px;
+						box-sizing: border-box;
+						display: flex;
+						flex-direction: column;
+						input {
+							max-width: 90%;
+							height: 37px;
+							margin-bottom: 28px;
+							opacity: 0.8;
+							color: #3e3e3e;
+							font-family: "Raleway - Medium Italic";
+							font-size: 14px;
+							
+						}
+						textarea {
+							max-width: 90%;
+							height: 98px;
+							resize: none;
+							opacity: 0.8;
+							color: #3e3e3e;
+							font-family: "Raleway - Medium Italic";
+							font-size: 14px;
+							padding-top: 10px;
+						}
+						button {
+							margin-top: 25px;
+							width: 95px;
+							height: 35px;
+							background-color: #fb6470;
+							color: #ffffff;
+							font-family: Raleway;
+							font-size: 16px;
+						}
+					}
+					.contactsRightPart {
+						width: 50%;
+						padding-top: 70px;
+						.contactFrame {
+							width: 90%;
+							float: right;
+							height: 53px;
+							margin-bottom: 57px;
+								img {
+									float: left;
+									width: 50px;
+									height: 50px;
+									margin-right: 38px
+								}
+							.text {
+								color: #3e3e3e;
+								font-family: Raleway;
+								font-size: 18px;
+								line-height: 30px;		
+							}
+						}
+					}
+				}
+			}
+			footer {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				margin-top: 111px;
+				margin-bottom: 50px;
+					.facebookIcon {
+						margin-right: 10px;
+						border-right: 1px solid #525052;
+						padding-right: 10px;
+						a {
+							text-decoration: none;
+							font-family: Font Awesome;
+							font-size: 30px;
+							line-height: 50px;
+							color: blue;
+						}
+					}
+					.linkedIcon {
+						a {
+							text-decoration: none;
+							font-size: 30px;
+							line-height: 50px;
+							color: black;
+						}
+					}
+					
+			}
+		}
+}
+
+@media (max-width: 1024px) {
+	body{
+		.menu {
+			width: 100%;
+			max-width: 1024px;
+			background-color: #353541;
+			height: 100%;
+			.myPhoto {
+				display: none;
+			}
+			nav {
+				text-align: center;
+				ul{
+					li {
+						display: inline;
+						padding-right: 20px;	
+						a{
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+		.mainConteiner {
+			width: 100%;
+			max-width: 1024px;
+			margin: 0 auto;
+			.main {
+				max-width: 1024px;
+				background-image:url(../img/header2.jpg);
+			}
+			.about, .education, .expirience, .portfolio, .contacts{
+				max-width: 1024px;
+				margin: 0 auto;
+				padding-right: 50px;
+			}
+		}
+	}
+}
+@media (max-width: 796px){
+	body {
+		.mainConteiner {
+			.portfolio {
+				width: 100%;
+				max-width: 796px;
+				.frameContainer {
+					display: flex;
+					justify-content: center;
+					.portfolioFrame {
+						margin-bottom: 30px;
+					}
+				}
+			}
+			.contacts {
+				width: 100%;
+				max-width: 796px;
+				.contactContainer {
+					display: flex;
+					flex-direction: column-reverse;
+					.contactsLeftPart {
+						width: 90%;
+						border: 0;
+						display: flex;
+						input {
+							max-width: 100%;
+						}
+						textarea {
+							max-width: 100%;
+						}
+					}
+					.contactsRightPart {
+						width: 90%;
+						border-bottom: 1px solid black;
+					}
+				}
+			}
+		}
+	}
+}
+//need made burger on 713px
