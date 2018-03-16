@@ -35,7 +35,7 @@ body .menu nav ul li a {
   line-height: 62px;
 }
 body .mainConteiner {
-  /*width: 77%;*/
+  width: 77%;
   min-width: 500px;
   max-width: 1075px;
   box-sizing: border-box;
@@ -57,6 +57,90 @@ body .mainConteiner .main h1 {
   line-height: 36.48px;
   text-align: center;
   margin-bottom: 128px;
+}
+body .mainConteiner .main button {
+  background: none;
+  padding: 10px;
+  color: #ffffff;
+  font-family: "Raleway - Semi Bold";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.48px;
+}
+body .mainConteiner .main .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .mainConteiner .main .modal .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+  border-radius: 10px;
+}
+body .mainConteiner .main .modal .modal-content p {
+  color: #3e3e3e;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+}
+body .mainConteiner .main .modal .modal-content form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body .mainConteiner .main .modal .modal-content form input {
+  max-width: 90%;
+  height: 37px;
+  margin-bottom: 28px;
+  opacity: 0.8;
+  color: #3e3e3e;
+  font-family: "Raleway - Medium Italic";
+  font-size: 14px;
+}
+body .mainConteiner .main .modal .modal-content form textarea {
+  max-width: 90%;
+  height: 98px;
+  resize: none;
+  opacity: 0.8;
+  color: #3e3e3e;
+  font-family: "Raleway - Medium Italic";
+  font-size: 14px;
+  padding-top: 10px;
+}
+body .mainConteiner .main .modal .modal-content form button {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 25px;
+  width: 95px;
+  height: 35px;
+  background-color: #fb6470;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+}
+body .mainConteiner .main .modal .modal-content .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+body .mainConteiner .main .modal .modal-content .close:hover,
+body .mainConteiner .main .modal .modal-content .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 body .mainConteiner .about,
 body .mainConteiner .education,
@@ -135,13 +219,16 @@ body .mainConteiner .contacts .contactContainer {
 body .mainConteiner .contacts .contactContainer .contactsLeftPart {
   width: 50%;
   max-width: 600px;
+}
+body .mainConteiner .contacts .contactContainer .contactsLeftPart form {
   border-right: 2px solid #525052;
   padding-right: 78px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
-body .mainConteiner .contacts .contactContainer .contactsLeftPart input {
+body .mainConteiner .contacts .contactContainer .contactsLeftPart form input {
   max-width: 90%;
   height: 37px;
   margin-bottom: 28px;
@@ -150,7 +237,7 @@ body .mainConteiner .contacts .contactContainer .contactsLeftPart input {
   font-family: "Raleway - Medium Italic";
   font-size: 14px;
 }
-body .mainConteiner .contacts .contactContainer .contactsLeftPart textarea {
+body .mainConteiner .contacts .contactContainer .contactsLeftPart form textarea {
   max-width: 90%;
   height: 98px;
   resize: none;
@@ -160,7 +247,7 @@ body .mainConteiner .contacts .contactContainer .contactsLeftPart textarea {
   font-size: 14px;
   padding-top: 10px;
 }
-body .mainConteiner .contacts .contactContainer .contactsLeftPart button {
+body .mainConteiner .contacts .contactContainer .contactsLeftPart form button {
   margin-top: 25px;
   width: 95px;
   height: 35px;
@@ -286,10 +373,10 @@ body .mainConteiner footer .linkedIcon a {
     border: 0;
     display: flex;
   }
-  body .mainConteiner .contacts .contactContainer .contactsLeftPart input {
+  body .mainConteiner .contacts .contactContainer .contactsLeftPart form input {
     max-width: 100%;
   }
-  body .mainConteiner .contacts .contactContainer .contactsLeftPart textarea {
+  body .mainConteiner .contacts .contactContainer .contactsLeftPart form textarea {
     max-width: 100%;
   }
   body .mainConteiner .contacts .contactContainer .contactsRightPart {
