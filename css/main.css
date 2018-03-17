@@ -192,6 +192,8 @@ body .mainConteiner .portfolio .frameContainer .portfolioFrame {
   width: 300px;
   height: 500px;
   border: 1px solid #525052;
+  margin-left: 20px;
+  margin-bottom: 40px;
   border-radius: 20px;
   -moz-box-shadow: 0px 0px 63px 14px rgba(0, 0, 0, 0.69);
   box-shadow: 0px 0px 63px 14px rgba(0, 0, 0, 0.69);

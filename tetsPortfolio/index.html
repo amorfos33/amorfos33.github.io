@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tes Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container-fluid">
+    <div class="popup-wrapper">
+        <div class="popup">
+            <img src="images/popup-close-button.png" class="popup-close-button" alt="Кнопка для закриття форми">
+            <h3 class="text-center">Замовити Проект</h3>
+            <form method="POST" action="https://formspree.io/lev.pencko@gmail.com">
+                <input type="text" id="name" placeholder="Ім'я">
+                <input type="tel" id="phone-number" placeholder="Телефон">
+                <input type="text" id="task-to-do" placeholder="Що потрібно зробити?">
+                <p id="message-box" class="text-center"></p>
+                <button type="submit" class="submit-button">Підтвердити</button>
+            </form>
+        </div>
+    </div>
+    <header>
+        <h1 class="text-center">Привіт!</h1>
+        <h2 class="text-center my-name">Я Авдимирець Артур</h2>
+        <h4 class="text-center me-front-ender">і я веб-розробник</h4>
+        <button class="popup-opener">Персональний Проект</button>
+    </header>
+    <main>
+        <div class="about-me row">
+            <div class="col-1 col-lg-2"></div>
+            <article class="about-me-article col-11 col-lg-4 wow slideInLeft" data-wow-duration="2s" data-wow-offset="100">
+                <h3 class="about-me-header"><span class="about-me-yellow-stick">|</span>Про Мене</h3>
+                <div class="wow slideInLeft" data-wow-duration="1s" data-wow-offset="100">
+                    <h6>IT освіта:</h6>
+                    <ul>
+                        <li>- Lviv Institute of Banking of University of Banking of National Bank of Ukraine (m. Kyiv) (Lviv).Year of graduation: 2010.Economy and business "Banking" Department of Banking and IT. Financial monitoring at the bank. Master.</li>
+                        <li>- Lviv Institute of Banking of University of Banking of National Bank of Ukraine (m. Kyiv) (Lviv).Year of graduation: 2009.Economy and business "Banking" Department of Banking and IT. Bachelor. </li>
+                        <li>- Lviv College of Economics and Law (Lviv).Year of graduation: 2006.Bank activity, Department of Banking. Junior Specialist.</li>
+                        <li>- Java Advanced(Lviv).Year of graduation: 2015.Certificate issued by "Computer Training Center" Logos "" in the direction of - Basic programming, HTML / CSS, MySQL, Java, Java Advanced. And got the knowledge and skills according to the course program.</li>
+                    </ul>
+                </div>
+                <div class="wow slideInLeft" data-wow-duration="1.25s" data-wow-offset="100">
+                    <h6>Навички:</h6>
+                    <div class="skills">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <progress max="100" value="80"></progress>
+                            </li>
+                            <li>
+                                <progress max="100" value="80"></progress>
+                            </li>
+                            <li>
+                                <progress max="100" value="40"></progress>
+                            </li>
+                            <li>
+                                <progress max="100" value="30"></progress>
+                            </li>
+                            <li>
+                                <progress max="100" value="30"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wow slideInLeft" data-wow-duration="1.5s" data-wow-offset="100">
+                    <h6>Додаткова інформація:</h6>
+                    <ul>
+                        <li><b>Знання мов: </b>English - intermediate, Italian - intermediate,Polish - below average, українська - рідна.
+                        </li>
+                        <li><b>Сімейний стан: </b>неодружений
+                        </li>
+                        <li><b>Хоббі: </b>strikeball, paintball</li>
+                    </ul>
+                </div>
+            </article>
+            <div class="personal-photo col-12 col-lg-6">
+                <img src="images/personal-photo.jpg" alt="Фото Авдимирця Артура">
+            </div>
+        </div>
+        <section class="portfolio">
+            <h3 class="text-center"><span class="portfolio-yellow-stick">|</span>Портфоліо</h3>
+            <div id="carouselControlsLg" class="carousel-lg carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slide-wrapper">
+                            <a href="https://amorfos33.github.io/" target="_blank" class="slide-side"><img src="images/myPortfolio.png" alt="Головна мого портфоліо"></a>
+                            <a href="https://amorfos33.github.io/project_Ethanol/index.html" target="_blank" class="slide-center"><img src="images/ethanol.png" alt="Навчальний проект №1"></a>
+                            <a href="https://amorfos33.github.io/projektSigxak/index.html" target="_blank" class="slide-side"><img src="images/sigxak.png" alt="Навчальний проект №2"></a>
+                        </div>
+                    </div>
+                   <!--  <div class="carousel-item">
+                        <div class="slide-wrapper">
+                            <a href="http://workshopfreya.com.ua" target="_blank" class="slide-side"><img src="images/project-workshop-freya.png" alt="Сайт манікюрного салону"></a>
+                            <a href="https://levpentsko.github.io/tour/" target="_blank" class="slide-center"><img src="images/project-tour.png" alt="Сайт про туризм"></a>
+                            <a href="https://levpentsko.github.io/logos-simple-js-test/" target="_blank" class="slide-side"><img src="images/project-javascript-tasks.png" alt="Задачі на JavaScript"></a>
+                        </div> -->
+                    </div>
+                </div>
+              <!--   <a class="carousel-control-prev" href="#carouselControlsLg" role="button" data-slide="prev">
+                    <img src="images/left-arrow.png" alt="Стрілка вліво">
+                </a>
+                <a class="carousel-control-next" href="#carouselControlsLg" role="button" data-slide="next">
+                    <img src="images/right-arrow.png" alt="Стрілка вправо">
+                </a> -->
+            </div>
+            <div id="carouselControlsSm" class="carousel-sm carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slide-wrapper">
+                           <a href="https://amorfos33.github.io/" target="_blank" class="slide-side"><img src="images/myPortfolio.png" alt="Головна мого портфоліо"></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide-wrapper">
+                            <a href="https://amorfos33.github.io/project_Ethanol/index.html" target="_blank" class="slide-center"><img src="images/ethanol.png" alt="Навчальний проект №1"></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide-wrapper">
+                           <a href="https://amorfos33.github.io/projektSigxak/index.html" target="_blank" class="slide-side"><img src="images/sigxak.png" alt="Навчальний проект №2"></a>
+                        </div>
+                    </div>
+                    <!-- <div class="carousel-item">
+                        <div class="slide-wrapper">
+                            <a href="https://levpentsko.github.io/tour/" target="_blank" class="slide-center"><img src="images/project-tour.png" alt="Сайт про туризм"></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide-wrapper">
+                            <a href="http://workshopfreya.com.ua" target="_blank" class="slide-center"><img src="images/project-workshop-freya.png" alt="Сайт манікюрного салону"></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide-wrapper">
+                            <a href="https://levpentsko.github.io/logos-simple-js-test/" target="_blank" class="slide-center"><img src="images/project-javascript-tasks.png" alt="Задачі на JavaScript"></a>
+                        </div>
+                    </div> -->
+                </div>
+               <!--  <a class="carousel-control-prev" href="#carouselControlsSm" role="button" data-slide="prev">
+                    <img src="images/left-arrow.png" alt="Стрілка вліво">
+                </a>
+                <a class="carousel-control-next" href="#carouselControlsSm" role="button" data-slide="next">
+                    <img src="images/right-arrow.png" alt="Стрілка вправо">
+                </a> -->
+            </div>
+        </section>
+        <div class="portfolio-bottom-line"></div>
+    </main>
+    <footer>
+        <h5 class="text-center">Буду радий з вами працювати!</h5>
+       <!--  <h6 class="text-center">Та Підкажу Рішення</h6> -->
+        <div class="row">
+            <a href="skype:SkypeUser" class="col-12 col-md-4 text-center">Skype: amorfos33</a>
+            <a href="mailto:amorfos33@gmail.com" class="col-12 col-md-4 text-center">E-mail: amorfos33@gmail.com</a>
+            <a href="tel:+380990251529" class="col-12 col-md-4 text-center">Phone: +380990251529</a>
+        </div>
+        <button class="popup-opener">Персональний Проект</button>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        /*global WOW*/
+        new WOW().init();
+    </script>
+</body>
+
+</html>
