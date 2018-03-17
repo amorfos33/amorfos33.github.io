@@ -3,7 +3,7 @@ $('form button[type=submit]').click(function(e) {
 	e.preventDefault();
 	const form = $('form')[0];
 	$.ajax({
-		url: "https://formspree.io/lev.pencko@gmail.com",
+		url: "https://formspree.io/amorfos33@gmail.com",
 		method: "POST",
 		data: {
 			userName: $('#name').val(),
