@@ -1,7 +1,7 @@
 /*global $*/
-$('form button[type=submit]').click(function(e) {
+$('#myForm[type=submit]').click(function(e) {
 	e.preventDefault();
-	const form = $('form')[0];
+	var form = $('#myForm')[0];
 	$.ajax({
 		url: "https://formspree.io/amorfos33@gmail.com",
 		method: "POST",
