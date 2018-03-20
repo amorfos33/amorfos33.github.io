@@ -12,6 +12,8 @@
 </head>
 <body>
 	<div class="menu">
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
 		<div class="myPhoto"></div>
 		<nav>
 			<ul>
@@ -63,7 +65,7 @@
 			<h2>Portfolio</h2>
 			<div class="frameContainer">
 				<div class="portfolioFrame">
-					<a href="project_Ethanol/index.html">
+					<a href="project_Ethanol/app/index.html">
 						<img src="img/ethanol.jpg">
 					</a>
 				</div>
@@ -74,7 +76,7 @@
 				</div>
 				<div class="portfolioFrame">
 					<a href="tetsPortfolio/index.html">
-						<img src="img/testPortfolio.png">
+						<img src="img/testPortfolio.jpg">
 					</a>
 				</div>
 			</div>
@@ -133,6 +135,28 @@
 			</div>
 		</footer>		
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/popup.js"></script>
+<script>
+var media = window.matchMedia("(max-width: 526px)");
+if (media.matches){
+$( document ).ready(function() {
+$( ".cross" ).hide();
+$( "nav" ).hide();
+$( ".hamburger" ).click(function() {
+$( "nav" ).slideToggle( "slow", function() {
+$( ".hamburger" ).hide();
+$( ".cross" ).show();
+});
+});
+$( ".cross" ).click(function() {
+$( "nav" ).slideToggle( "slow", function() {
+$( ".cross" ).hide();
+$( ".hamburger" ).show();
+});
+});
+
+});}
+</script>
 </body>
 </html>
