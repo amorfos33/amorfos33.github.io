@@ -1,0 +1,532 @@
+body {
+  margin: 0 auto;
+}
+body header {
+  background-color: #1d2126;
+  width: 100%;
+  height: 81px;
+  position: fixed;
+  z-index: 1;
+}
+body header .container {
+  width: 1140px;
+  justify-content: space-between;
+}
+body header .container .row {
+  box-sizing: border-box;
+}
+body header .container .row #menu {
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row-reverse;
+}
+body header .container .row #menu nav ul .active {
+  border: 2px solid #23b7a4;
+  color: #23b7a4;
+  font-family: "Open Sans - Semibold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+body header .container .row #menu nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+body header .container .row #menu nav ul li:hover {
+  outline: 3px solid #5b6168;
+  color: #a4aead;
+  font-family: "Open Sans - Semibold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+body header .container .row #menu nav ul li a {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #a4aead;
+  font-family: "Open Sans - Semibold";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+body .main {
+  width: 100%;
+  height: 660px;
+  background-color: #3a454d;
+  background-image: url(../img/main.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+body .main h1 {
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+body .main h2 {
+  color: #ccd0d7;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+body .main a {
+  text-decoration: none;
+}
+body .main .button {
+  width: 120px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  background-color: none;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-right: 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+body .main .button:hover {
+  border: 2px solid #23b7a4;
+  background-color: #23b7a4;
+}
+body .about {
+  box-sizing: border-box;
+  padding-top: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 99px;
+  border-bottom: 3px solid #dde1e4;
+}
+body .about .container .aboutLeftPart h3 {
+  border-left: 15px solid #e1e6ea;
+  padding-left: 10px;
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-bottom: 63px;
+}
+body .about .container .aboutLeftPart .aboutLeftPartText {
+  margin-bottom: 40px;
+  color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+body .about .container .aboutLeftPart .aboutLeftPartText span {
+  font-weight: 700;
+}
+body .about .container .aboutLeftPart label {
+  border: 0;
+  box-sizing: border-box;
+  padding-top: 10px;
+  border-right: 2px solid white;
+  width: 60px;
+  height: 60px;
+  background-color: #c8cdd0;
+  color: #ffffff;
+  font-family: Socialico;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+  /* Text style for "F," */
+  letter-spacing: -0.9px;
+}
+body .about .container .aboutLeftPart label:hover {
+  background-color: #d0d5d9;
+}
+body .about .container .aboutRightPart .aboutframe {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+body .about .container .aboutRightPart .aboutframe .namber {
+  width: 120px;
+  height: 50px;
+  background-color: #23b7a4;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+  margin-right: 17px;
+}
+body .about .container .aboutRightPart .aboutframe .frameText {
+  color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+body .about .container .aboutRightPart .aboutframe .frameText h4 {
+  margin-top: -10px;
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+body .team {
+  box-sizing: border-box;
+  padding-top: 85px;
+  padding-bottom: 100px;
+}
+body .team .container .titleText {
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  border-left: 15px solid #e1e6ea;
+  padding-left: 10px;
+  margin-bottom: 63px;
+}
+body .team .container .teamFrame img {
+  width: 100%;
+}
+body .team .container .teamFrame .sicialContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .team .container .teamFrame .sicialContainer label {
+  display: none;
+  border-right: 2px solid white;
+  width: 50px;
+  height: 50px;
+  background-color: #3a454d;
+  color: #ffffff;
+  font-family: Socialico;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 13.52px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: -170px;
+}
+body .team .container .teamFrame .sicialContainer label:hover {
+  background-color: #4e5a62;
+}
+body .team .container .teamFrame .textPerson {
+  box-sizing: border-box;
+  padding-top: 11px;
+  padding-left: 20px;
+  height: 74px;
+  background-color: #e1e6ea;
+  text-align: left;
+  color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+body .team .container .teamFrame .textPerson h4 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+body .team .container .teamFrame:hover .sicialContainer label {
+  display: block;
+}
+body .team .container .teamFrame:hover .textPerson {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  background-color: #3a454d;
+}
+body .team .container .teamFrame:hover .textPerson h4 {
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+body .work {
+  background-color: #3a454d;
+  box-sizing: border-box;
+  padding-top: 86px;
+  margin-bottom: 62px;
+}
+body .work .container .titleText {
+  margin-bottom: 63px;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  border-left: 15px solid #4e5a62;
+  padding-left: 10px;
+}
+body .work .container .workContent {
+  margin-bottom: 30px;
+}
+body .work .container .workContent a {
+  text-decoration: none;
+}
+body .work .container .workContent a img {
+  width: 100%;
+}
+body .work .container .workContent a .pluss {
+  display: none;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -172px;
+  margin-bottom: 93px;
+  color: white;
+  font-size: 20px;
+}
+body .work .container .workContent a .workContentFrame {
+  display: none;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 100%;
+  height: 60px;
+  background-color: #292f36;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  position: relative;
+}
+body .work .container .workContent:hover img {
+  background-color: #292f36;
+  opacity: 0.5;
+}
+body .work .container .workContent:hover .pluss {
+  display: block;
+}
+body .work .container .workContent:hover .workContentFrame {
+  display: block;
+}
+body .work .container button {
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  background: none;
+  width: 147px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  margin-left: 40%;
+  margin-top: 62px;
+  margin-bottom: 62px;
+  position: relative;
+}
+body .service {
+  padding-bottom: 71px;
+}
+body .service .container .serviceTitleText {
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  border-left: 15px solid #e1e6ea;
+  padding-left: 10px;
+  margin-bottom: 93px;
+  margin-top: 86px;
+}
+body .service .container .serviceFrame {
+  margin: 0 auto;
+  text-align: center;
+  color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 94px;
+}
+body .service .container .serviceFrame img {
+  margin-bottom: 35px;
+}
+body .service .container .serviceFrame h4 {
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+body .feature {
+  background-color: #3a454d;
+  padding-top: 91px;
+  padding-bottom: 120px;
+}
+body .feature .container .featureTitleText {
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  border-left: 15px solid #4e5a62;
+  padding-left: 10px;
+  margin-bottom: 63px;
+}
+body .feature .container a {
+  text-decoration: none;
+}
+body .feature .container a h4 {
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-top: 54px;
+}
+body .feature .container a h5 {
+  color: #dcdfe1;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 29px;
+}
+body .contact {
+  padding-top: 70px;
+  padding-bottom: 95px;
+}
+body .contact .container .contactTitleText {
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  border-left: 15px solid #e1e6ea;
+  padding-left: 10px;
+  margin-bottom: 63px;
+}
+body .contact .contactFooter {
+  padding-top: 60px;
+}
+body .contact .contactFooter .container .contactInfo {
+  color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+body .contact .contactFooter .container .contactInfo h4 {
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-bottom: 39px;
+}
+body .contact .contactFooter .container .contactInfo span {
+  font-weight: 700;
+}
+body .contact .contactFooter .container .contactForm {
+  position: relative;
+  margin-top: -129px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px;
+}
+body .contact .contactFooter .container .contactForm form label {
+  display: block;
+  color: #8d8f92;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+body .contact .contactFooter .container .contactForm form input {
+  display: block;
+  width: 100%;
+  background-color: #eaeef1;
+}
+body .contact .contactFooter .container .contactForm form textarea {
+  display: block;
+  width: 100%;
+  height: 159px;
+  resize: none;
+  background-color: #eaeef1;
+}
+body .contact .contactFooter .container .contactForm form button {
+  margin-top: 32px;
+  background-color: #23b7a4;
+  width: 147px;
+  height: 40px;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+body footer {
+  background-color: #3a454d;
+  height: 95px;
+  box-sizing: border-box;
+  padding-top: 42px;
+}
+body footer .container #copi {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+body footer .container #footerSocial a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Socialico;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  /* Text style for "L, FHEI" */
+  letter-spacing: 16.8px;
+}
