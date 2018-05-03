@@ -143,10 +143,16 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/popup.js"></script>
 <script>
-var media = window.matchMedia("(max-width: 526px)");
-if (media.matches){
-$( document ).ready(function() {
-$( ".cross" ).hide();
+	if (matchMedia) {
+  const mq = window.matchMedia("(min-width: 526px");
+  mq.addListener(WidthChange);
+  WidthChange(mq);
+}
+
+// media query change
+function WidthChange(mq) {
+  if (mq.matches) {
+    $( ".cross" ).hide();
 $( "nav" ).hide();
 $( ".hamburger" ).click(function() {
 $( "nav" ).slideToggle( "slow", function() {
@@ -160,8 +166,11 @@ $( ".cross" ).hide();
 $( ".hamburger" ).show();
 });
 });
+  } else {
+    // window width is less than 500px
+  }
 
-});}
+}
 </script>
 </body>
 </html>
