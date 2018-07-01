@@ -143,7 +143,7 @@ body .mainTrump .container .contentBlock video {
   margin-bottom: 160px;
 }
 body footer {
-  height: 644px;
+  height: 495px;
   width: 100%;
   background-color: #1a2145;
   padding-top: 80px;
@@ -215,5 +215,5 @@ body footer .copy {
   font-family: Lato;
   font-size: 14px;
   text-align: center;
-  margin-top: 270px;
+  margin-top: 129px;
 }
