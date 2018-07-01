@@ -1,0 +1,219 @@
+body {
+  background-color: white;
+  padding-top: 125px;
+}
+body header {
+  margin-bottom: 185px;
+}
+body header .circl {
+  width: 140px;
+  height: 140px;
+  background-color: #000050;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 74px;
+}
+body header .circl .fa-heart {
+  margin-right: -19px;
+  color: #b20003;
+  font-size: 37px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 5px;
+  float: right;
+  margin-top: 46px;
+}
+body header .seventeen {
+  width: 600px;
+  height: 340px;
+  background-image: url(../img/17.png);
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+body header .spanHolder {
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
+body header .spanHolder span {
+  font-size: 29px;
+  text-transform: uppercase;
+  background: #1a2044;
+  color: white;
+  line-height: 80px;
+  padding: 15px;
+}
+body .scrollBlock {
+  margin: 0 auto;
+  width: 225px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+body .scrollBlock a {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 22px;
+  color: #2a3050;
+}
+body .scrollBlock a h5 {
+  margin-bottom: 23px;
+}
+body .scrollBlock a .scrollCircl {
+  border: 2px solid #191f43;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+body .scrollBlock a .scrollCircl .fa-angle-down {
+  font-size: 40px;
+}
+body .fixed {
+  position: fixed;
+  top: 0;
+  left: 40%;
+}
+body .mainTrump .imgTrump {
+  width: 85%;
+  -webkit-border-radius: 5px;
+  border-radius: 10px;
+  background-image: url(../img/01.jpg);
+  height: 885px;
+  margin: 0 auto;
+  background-repeat: round;
+}
+body .mainTrump .container {
+  border-left: 4px solid #dedede;
+  margin: 0 auto;
+  width: 58%;
+  padding-top: 84px;
+}
+body .mainTrump .container .redDate {
+  color: #c30000;
+  font-family: Archivo Black;
+  font-size: 28px;
+  width: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: -26px;
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+body .mainTrump .container .redDate p {
+  font-size: 15px;
+  font-family: Lato;
+  margin-top: -1px;
+}
+body .mainTrump .container .contentBlock {
+  margin-left: 100px;
+  margin-top: -27px;
+}
+body .mainTrump .container .contentBlock h2 {
+  font-family: Archivo Black;
+  font-size: 40px;
+  color: #1a2041;
+}
+body .mainTrump .container .contentBlock p {
+  margin-top: 83px;
+  font-family: Lato;
+  font-size: 20px;
+  color: #1a2145;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+body .mainTrump .container .contentBlock video {
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  margin-bottom: 160px;
+}
+body footer {
+  height: 644px;
+  width: 100%;
+  background-color: #1a2145;
+  padding-top: 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body footer .titleSocia {
+  width: 478px;
+  height: 68px;
+  background-color: white;
+  margin: 0 auto;
+  font-family: Archivo Black;
+  color: #191f40;
+  font-size: 27px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body footer .socialButtomHolder {
+  margin: 0 auto;
+  width: 420px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+body footer .socialButtomHolder a {
+  text-decoration: none;
+}
+body footer .socialButtomHolder .socialBorder {
+  width: 80px;
+  height: 80px;
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body footer .socialButtomHolder .socialBorder i {
+  color: white;
+  font-size: 35px;
+}
+body footer .copy {
+  color: white;
+  font-family: Lato;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 270px;
+}
