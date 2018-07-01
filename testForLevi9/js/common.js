@@ -18,7 +18,7 @@ $(function(){
 $.each(data,function (key,value) {
     var test=
     
-    '<div class="imgTrump" style="background-image: url(../img/'+value.img+');"></div>'+
+    '<div class="imgTrump" style="background-image: url(./img/'+value.img+');"></div>'+
     '<div class="container">'+
         '<strong class="redDate">'+
          '<b>'+value.date+'</p>'+
